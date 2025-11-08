@@ -6,7 +6,7 @@ namespace Tyuiu.KhafizovTV.Sprint3.Task0.V2.Lib
     {
         public double GetMultiplySeries(int startValue, int stopValue)
         {
-            double MS = 0;
+            double MS = 1;
             int i;
             for (i = startValue; i <= stopValue; i++)
             {
