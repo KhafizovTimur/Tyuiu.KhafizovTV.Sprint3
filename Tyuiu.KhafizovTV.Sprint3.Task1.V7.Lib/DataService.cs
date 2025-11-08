@@ -9,7 +9,7 @@ namespace Tyuiu.KhafizovTV.Sprint3.Task1.V7.Lib
             double MS = 1;
             do
             {
-                MS *= Math.Pow(value, startValue) * Math.Sin(5);
+                MS *= (Math.Pow(value, startValue) + 1) * Math.Sin(5);
                 startValue++;
             } while (startValue <= stopValue);
             return Math.Round(MS, 3);
