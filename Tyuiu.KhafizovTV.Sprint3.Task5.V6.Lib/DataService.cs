@@ -11,7 +11,7 @@ namespace Tyuiu.KhafizovTV.Sprint3.Task5.V6.Lib
             {
                 for (int k = startValue2; k <= stopValue2; k++)
                 {
-                    SumSer += 1 / (Math.Cos(k) + 2);
+                    SumSer += (1 / Math.Cos(k)) + 2;
                 }
             }
             return Math.Round(SumSer, 3);
