@@ -2,7 +2,7 @@
 
 namespace Tyuiu.KhafizovTV.Sprint3.Task4.V1.Lib
 {
-    public class DataService : ISprint3Task4V12
+    public class DataService : ISprint3Task4V1
     {
         public double Calculate(int startValue, int stopValue)
         {
