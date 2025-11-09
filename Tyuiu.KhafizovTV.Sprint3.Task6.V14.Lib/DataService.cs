@@ -6,17 +6,12 @@ namespace Tyuiu.KhafizovTV.Sprint3.Task6.V14.Lib
     {
         public int GetSumTheDivisors(int startValue, int stopValue)
         {
+            int x;
             int sum = 0;
-            for (int x = startValue; x <= stopValue; x++)
-            {
-                for (int d = 6; d <= x; d++)
-                {
-                    if (x % d == 0 && d > 5)
-                    {
-                        sum += d;
-                    }
-                }
-            }
+            for (x = startValue; x <= stopValue; x++)
+                    for (int divisor = 1; divisor <= x; divisor++)
+                    if (x % divisor == 0 && divisor > 5)
+                        sum++;
             return sum;
         }
     }
